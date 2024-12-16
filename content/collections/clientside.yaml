@@ -2,7 +2,7 @@ title: ClientSide
 template: clientside/index
 layout: client-layout
 revisions: false
-route: 'client-side/{slugs}'
+route: '/client-side/{slug}'
 date: true
 sort_dir: asc
 date_behavior:
