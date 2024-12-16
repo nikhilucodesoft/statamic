@@ -539,7 +539,7 @@ class EntriesController extends CpController
         }
 
         $existing = Entry::findByUri($uri, $entry->locale());
-dd($uri,$existing->id(),$entry->id());
+ 
         if (! $existing || $existing->id() === $entry->id()) {
             return;
         }
