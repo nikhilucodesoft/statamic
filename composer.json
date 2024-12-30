@@ -14,7 +14,8 @@
         "laravel/framework": "^9.19",
         "laravel/sanctum": "^3.0",
         "laravel/tinker": "^2.7",
-        "statamic/cms": "^4.58"
+        "statamic/cms": "^4.58",
+        "typesense/typesense-php": "*"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
